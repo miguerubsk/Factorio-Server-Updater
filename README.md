@@ -108,6 +108,24 @@ Para poner en funcionamiento una copia local, sigue estos sencillos pasos de eje
 
 ### Prerequisitos
 
+* El servidor de Factorio debe estar configurado como un servicio. Ejemplo:
+  ```ini
+  [Unit]
+  Description=Factorio Headless Server
+  After=network.target
+
+  [Service]
+  Type=simple
+  User=factorio
+  ExecStart=/opt/factorio/bin/x64/factorio --start-server-load-latest --server-settings /opt/factorio/data/server-settings.json
+  Restart=always
+  RestartSec=3
+  StandardOutput=append:journal
+  StandardError=append:journal
+
+  [Install]
+  WantedBy=multi-user.target
+  ```
 * Asegurate de sustituir las rutas y usuarios, por ejemplo:
   ```sh
     ...
@@ -149,6 +167,23 @@ Simplemente ejecuta el script:
    factorio-server-updater
 ```
 
+## Flujo del programa:
+1. Inicio
+2. Verificar si el usuario es root
+3. Definir rutas y usuario
+4. Verificar existencia de directorios y crearlos si es necesario
+5. Detener el servicio de Factorio
+6. Realizar una copia de seguridad y gestionar copias antiguas
+7. Verificar e instalar wget si es necesario
+8. Descargar y extraer la última versión de Factorio
+9. Verificar el binario principal y asignar permisos si es necesario
+10. Eliminar archivos temporales
+11. Iniciar el servicio de Factorio
+12. Corregir permisos
+13. Mostrar tiempo de ejecución
+14. Fin
+
+Si el programa falla en cualquiera de los pasos, primero intentará restablecer el servicio con los archivos existentes, si falla, intentará restaurar la última copia de seguridad y volverá a intentar reiniciar el servicio.
 
 
 <!-- CONTRIBUTING -->
