@@ -27,11 +27,11 @@
 [![project_license][license-shield]][license-url]
 -->
 
-[![Contributors]][contributors-url]
-[![Forks]][forks-url]
-[![Stargazers]][stars-url]
-[![Issues]][issues-url]
-[![project_license]][license-url]
+[Contributors][contributors-url]
+[Forks][forks-url]
+[Stargazers][stars-url]
+[Issues][issues-url]
+[project_license][license-url]
 
 
 <!-- PROJECT LOGO -->
