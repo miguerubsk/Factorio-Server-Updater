@@ -108,15 +108,14 @@ Para poner en funcionamiento una copia local, sigue estos sencillos pasos de eje
 
 ### Prerequisitos
 
-* Asegurate de sustituir las rutas y usuarios
+* Asegurate de sustituir las rutas y usuarios, por ejemplo:
   ```sh
-    FACTORIO_DIR=""
-    BACKUP_DIR=""
-    LOGS_DIR=""
-    MODS_DIR="$FACTORIO_DIR/mods"
-    SETTINGS_FILE="$FACTORIO_DIR/data/server-settings.json"
     ...
-    USER=""
+    FACTORIO_DIR="/opt/factorio"
+    BACKUP_DIR="/var/backups"
+    LOGS_DIR="/var/log/factorio"
+    ...
+    USER="miguerubsk"
     ...
   ```
 
