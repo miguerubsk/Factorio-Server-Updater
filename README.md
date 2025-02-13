@@ -128,7 +128,11 @@ Para poner en funcionamiento una copia local, sigue estos sencillos pasos de eje
    git clone https://github.com/miguerubsk/Factorio-Server-Updater.git
    ```
 3. Asegurate de sustituir las rutas y usuarios al principio del script
-4. Puedes "instalarlo" en tu sistema linux copiandolo a tu carpeta de ejecutables:
+4. Dale permisos de ejecución:
+   ```sh
+   chmod +x ./Factorio-Server-Updater/factorio-server-updater.sh
+   ```
+5. Puedes "instalarlo" en tu sistema linux copiandolo a tu carpeta de ejecutables:
    ```sh
    cp factorio-server-updater.sh /usr/bin/factorio-server-updater
    chmod +x /usr/bin/factorio-server-updater
