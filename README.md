@@ -135,7 +135,7 @@ Para poner en funcionamiento una copia local, sigue estos sencillos pasos de eje
     BACKUP_DIR="/var/backups"
     LOGS_DIR="/var/log/factorio"
     ...
-    USER="miguerubsk"
+    USER="factorio"
     ...
   ```
 
