@@ -108,7 +108,8 @@ Para poner en funcionamiento una copia local, sigue estos sencillos pasos de eje
 
 ### Prerequisitos
 
-* El servidor de Factorio debe estar configurado como un servicio. Ejemplo `/etc/systemd/system/factorio.service`:
+* El servidor de Factorio debe estar configurado como un servicio. Ejemplo:
+ `/etc/systemd/system/factorio.service`
   ```ini
   [Unit]
   Description=Factorio Headless Server
