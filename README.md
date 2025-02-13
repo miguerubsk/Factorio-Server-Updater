@@ -126,6 +126,7 @@ Para poner en funcionamiento una copia local, sigue estos sencillos pasos de eje
   [Install]
   WantedBy=multi-user.target
   ```
+  Para más información puedes consultar [este] (https://gist.github.com/othyn/e1287fd937c1e267cdbcef07227ed48c) tutorial de [Othlyn]. (https://gist.github.com/othyn)
 * Asegurate de sustituir las rutas y usuarios, por ejemplo:
   ```sh
     ...
