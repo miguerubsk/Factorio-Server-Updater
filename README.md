@@ -144,22 +144,21 @@ Simplemente ejecuta el script:
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Contribuyendo
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Las contribuciones son lo que hace que la comunidad de código abierto sea un lugar increíble para aprender, inspirar y crear. Cualquier contribución que hagas es **muy apreciada**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+Si tienes alguna sugerencia que pueda mejorar esto, crea un fork del repositorio y una solicitud de incorporación de cambios. También puedes abrir un problema con la etiqueta "mejora". ¡No olvides darle una estrella al proyecto! ¡Gracias de nuevo!
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Bifurcar el proyecto
+2. Crea tu rama de funciones (`git checkout -b feature/AmazingFeature`)
+3. Confirme sus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Empujar hacia la rama (`git push origin feature/AmazingFeature`)
+5. Abrir una solicitud de extracción
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Top contributors:
+### Principales colaboradores:
 
 <a href="https://github.com/miguerubsk/Factorio-Server-Updater/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=miguerubsk/Factorio-Server-Updater" alt="contrib.rocks image" />
@@ -168,7 +167,7 @@ Don't forget to give the project a star! Thanks again!
 
 
 <!-- LICENSE -->
-## License
+## Licecia
 
 Distributed under the GPL-3.0 license. See `LICENSE` for more information.
 
@@ -177,7 +176,7 @@ Distributed under the GPL-3.0 license. See `LICENSE` for more information.
 
 
 <!-- CONTACT -->
-## Contact
+## Contacto
 
 Miguerubsk - [@migueru98](https://twitter.com/migueru98) - miguerubsk@gmail.com
 
