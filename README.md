@@ -18,30 +18,38 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
+<!--
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![project_license][license-shield]][license-url]
+-->
 
+[![Contributors]][contributors-url]
+[![Forks]][forks-url]
+[![Stargazers]][stars-url]
+[![Issues]][issues-url]
+[![project_license]][license-url]
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/miguerubsk/Factorio-Server-Updater">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+   <!-- <img src="images/logo.png" alt="Logo" width="80" height="80">-->
   </a>
 
 <h3 align="center">Actualizador de Factorio</h3>
 
   <p align="center">
     <br />
-    <a href="https://github.com/miguerubsk/Factorio-Server-Updater"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/miguerubsk/Factorio-Server-Updater"><strong>Explora la documentación »</strong></a>
     <br />
-    <a href="https://github.com/miguerubsk/Factorio-Server-Updater/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/miguerubsk/Factorio-Server-Updater/issues/new?labels=bug&template=bug-report---.md">Reporta un Error</a>
     &middot;
-    <a href="https://github.com/miguerubsk/Factorio-Server-Updater/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/miguerubsk/Factorio-Server-Updater/issues/new?labels=enhancement&template=feature-request---.md">Pide una función</a>
   </p>
 </div>
 
@@ -61,7 +69,7 @@
       <a href="#getting-started">Empezando</a>
       <ul>
         <li><a href="#prerequisites">Prerequisitos</a></li>
-        <li><a href="#installation">Installación</a></li>
+        <li><a href="#installation">Instalación</a></li>
       </ul>
     </li>
     <li><a href="#usage">Uso</a></li>
@@ -77,7 +85,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre el proyecto
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!--[![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 
 Actualiza tu servidor de factorio más facil que nunca con este script automático que gestiona copias de seguridad y es perfectamente usable con crontab.
 
@@ -162,7 +170,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the project_license. See `LICENSE.txt` for more information.
+Distributed under the project_license. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
