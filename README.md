@@ -23,7 +23,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![project_license][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -34,10 +33,9 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Actualizador de Factorio</h3>
 
   <p align="center">
-    project_description
     <br />
     <a href="https://github.com/miguerubsk/Factorio-Server-Updater"><strong>Explore the docs »</strong></a>
     <br />
@@ -89,7 +87,7 @@ Actualiza tu servidor de factorio más facil que nunca con este script automáti
 
 ### Hecho con
 
-* ![Bash][Bash.com]
+ ![Bash][Bash.com]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,7 +201,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
 [issues-url]: https://github.com/github_username/repo_name/issues
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[license-url]: https://github.com/miguerubsk/Factorio-Server-Updater/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
