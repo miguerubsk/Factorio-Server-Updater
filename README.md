@@ -68,7 +68,7 @@
     <li>
       <a href="#getting-started">Empezando</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisitos</a></li>
+        <li><a href="#prerequisites">Prerrequisitos</a></li>
         <li><a href="#installation">Instalación</a></li>
       </ul>
     </li>
@@ -106,7 +106,7 @@ Actualiza tu servidor de factorio más facil que nunca con este script automáti
 
 Para poner en funcionamiento una copia local, sigue estos sencillos pasos de ejemplo.
 
-### Prerequisitos
+### Prerrequisitos
 
 * El servidor de Factorio debe estar configurado como un servicio. Ejemplo:
  `/etc/systemd/system/factorio.service`
