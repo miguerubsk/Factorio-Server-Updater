@@ -27,11 +27,11 @@
 [![project_license][license-shield]][license-url]
 -->
 
-[Contributors][contributors-url]
+[Contribuidores][contributors-url]
 [Forks][forks-url]
 [Stargazers][stars-url]
-[Issues][issues-url]
-[project_license][license-url]
+[Problemas][issues-url]
+[Licencia][license-url]
 
 
 <!-- PROJECT LOGO -->
@@ -161,8 +161,8 @@ Don't forget to give the project a star! Thanks again!
 
 ### Top contributors:
 
-<a href="https://github.com/github_username/repo_name/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=github_username/repo_name" alt="contrib.rocks image" />
+<a href="https://github.com/miguerubsk/Factorio-Server-Updater/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=miguerubsk/Factorio-Server-Updater" alt="contrib.rocks image" />
 </a>
 
 
@@ -170,7 +170,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the project_license. See `LICENSE` for more information.
+Distributed under the GPL-3.0 license. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,9 +179,9 @@ Distributed under the project_license. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Miguerubsk - [@migueru98](https://twitter.com/migueru98) - miguerubsk@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Enlace: [https://github.com/miguerubsk/Factorio-Server-Updater](https://github.com/miguerubsk/Factorio-Server-Updater)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
