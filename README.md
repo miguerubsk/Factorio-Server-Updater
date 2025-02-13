@@ -41,9 +41,6 @@
     <br />
     <a href="https://github.com/miguerubsk/Factorio-Server-Updater"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/miguerubsk/Factorio-Server-Updater">View Demo</a>
-    &middot;
     <a href="https://github.com/miguerubsk/Factorio-Server-Updater/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
     <a href="https://github.com/miguerubsk/Factorio-Server-Updater/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
@@ -80,7 +77,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Sobre el proyecto
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
@@ -92,7 +89,7 @@ Actualiza tu servidor de factorio más facil que nunca con este script automáti
 
 ### Hecho con
 
-* [![Bash][Bash.com]]
+* ![Bash][Bash.com]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
