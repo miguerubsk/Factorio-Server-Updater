@@ -45,7 +45,7 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/miguerubsk/Factorio-Server-Updater"><strong>Explora la documentación »</strong></a>
+    <a href="https://github.com/miguerubsk/Factorio-Server-Updater/discussions"><strong>Explora las discusiones »</strong></a>
     <br />
     <a href="https://github.com/miguerubsk/Factorio-Server-Updater/issues/new?labels=bug&template=bug-report---.md">Reporta un Error</a>
     &middot;
