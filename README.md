@@ -38,7 +38,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/miguerubsk/Factorio-Server-Updater">
-   <!-- <img src="images/logo.png" alt="Logo" width="80" height="80">-->
+   <img src="https://i.redd.it/cxd6h865itp71.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Actualizador de Factorio</h3>
