@@ -31,7 +31,7 @@
 [Forks][forks-url]
 [Stargazers][stars-url]
 [Problemas][issues-url]
-[Licencia][license-url]
+[![Licencia][license-shield]][license-url]
 
 
 <!-- PROJECT LOGO -->
