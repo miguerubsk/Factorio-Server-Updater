@@ -23,6 +23,12 @@ SETTINGS_FILE="$FACTORIO_DIR/data/server-settings.json"
 #Definir usuario
 USER=""
 
+# Validar que las variables no estén vacías
+if [ -z "$FACTORIO_DIR" ] || [ -z "$BACKUP_DIR" ] || [ -z "$LOGS_DIR" ] || [ -z "$USER" ]; then
+    echo "ERROR: Una o más variables necesarias no están definidas."
+    exit 1
+fi
+
 # Función para imprimir mensajes con marca de tiempo
 log_message() {
     echo "$(date +'%Y-%m-%d %H:%M:%S') - $1" >> "$LOGS_DIR/factorio_update_$(date +'%Y%m%d').log"
@@ -118,7 +124,11 @@ log_message "===================================================================
 log_message "Iniciando el script de actualización de Factorio..."
 log_message "Directorio de Factorio: $FACTORIO_DIR"
 log_message "Directorio de Backups: $BACKUP_DIR"
+log_message "Directorio de Logs: $LOGS_DIR"
+log_message "Directorio de Mods: $MODS_DIR"
+log_message "Archivo de Configuración: $SETTINGS_FILE"
 log_message "Usuario actual: $(whoami)"
+log_message "Usuario de Factorio: $USER"
 log_message "Fecha y hora: $(date)"
 
 # Comprobamos si las rutas existen
