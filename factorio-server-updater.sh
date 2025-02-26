@@ -13,15 +13,15 @@ else
     SUDO=""
 fi
 
-# Definir las rutas
-FACTORIO_DIR=""
-BACKUP_DIR=""
-LOGS_DIR=""
+# Definir las rutas usando variables de entorno
+FACTORIO_DIR="${FACTORIO_DIR:-/opt/factorio}"
+BACKUP_DIR="${BACKUP_DIR:-/var/backups}"
+LOGS_DIR="${LOGS_DIR:-/var/log/factorio}"
 MODS_DIR="$FACTORIO_DIR/mods"
 SETTINGS_FILE="$FACTORIO_DIR/data/server-settings.json"
 
 #Definir usuario
-USER=""
+USER="${USER:-$(whoami)}"
 
 # Validar que las variables no estén vacías
 if [ -z "$FACTORIO_DIR" ] || [ -z "$BACKUP_DIR" ] || [ -z "$LOGS_DIR" ] || [ -z "$USER" ]; then
